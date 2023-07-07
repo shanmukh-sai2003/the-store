@@ -1,0 +1,37 @@
+.landingPageRow {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col{
+    flex-basis: 50%;
+    min-width: 300px;
+ }
+ 
+.col img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.shopBtn{
+    display: inline-block;
+    background-color: #26d270;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px ;
+}
+
+.shopBtn:hover{
+    background: #563434;
+}
+
+@media only screen and (max-width: 600px){
+    .landingPageRow{
+        text-align: center;
+    }
+}
+ 
+
